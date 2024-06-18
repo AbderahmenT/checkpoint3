@@ -1,0 +1,197 @@
+@font-face {
+    font-family: inter;
+    src: url(/news-homepage-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+
+/*--------------------------------------------------------------------------------*/
+
+
+body {
+    font-family:inter;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    text-shadow: 2px 2px 4px gray;
+    transform: scale(1.2); 
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+
+}
+/*--------------------------------------------------------------------------------*/
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    
+}
+
+#ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#topbar nav ul li {
+    font-size: 16px;
+}
+
+#topbar nav ul li a {
+    color: #333;
+}
+
+#topbar nav ul li a:hover {
+    color: #f15e50;
+    text-shadow: 2px 2px 4px gray;
+    transform: scale(1.2); 
+    font-weight: 500;
+}
+
+/*--------------------------------------------------------------------------------*/
+#parent1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.child1 {
+    flex: 2;
+}
+
+.child2 {
+    flex: 1;
+    background-color: #00001a;
+    padding: 20px;
+    color: #fff;
+}
+
+.child2 h1 {
+    color: #e9ab53;
+}
+
+.child2 h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.child2 h2 a:hover {
+    text-decoration: underline;
+}
+
+.child2 p {
+    margin: 10px 0 20px;
+    color: #b5b5b5;
+}
+/*--------------------------------------------------------------------------------*/
+#parent2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.child3 {
+    margin-bottom: 20px;
+}
+
+.child3 h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #00001a;
+}
+
+.child4 p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.child4 button {
+    padding: 10px 20px;
+    background-color: #f15e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.child4 button:hover {
+    background-color: #e63946;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+#parent3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.child5, .child6, .child7 {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.child5 div, .child6 div, .child7 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.child5 h1, .child6 h1, .child7 h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #00001a;
+}
+
+.child5 p, .child6 p, .child7 p {
+    font-size: 14px;
+    color: #333;
+}
+
+.child5 img, .child6 img, .child7 img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.child5 .number, .child6 .number, .child7 .number{
+    font-size: 36px;
+    color: #f15e50;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+.attribution {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #adb5bd;
+}
+
+.attribution a {
+    color: #f15e50;
+}
